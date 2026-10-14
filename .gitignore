@@ -1,0 +1,5 @@
+runs/*/tmp/
+runs/*/logs/
+*.spef
+*.sdf
+*.vcd

@@ -1,0 +1,28 @@
+
+53. Printing statistics.
+
+=== aes ===
+
+   Number of wires:              20929
+   Number of wire bits:          24730
+   Number of public wires:         100
+   Number of public wire bits:    3901
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              24675
+     $_ANDNOT_                    6497
+     $_AND_                        223
+     $_DFFE_PN0P_                 2843
+     $_DFFE_PN1P_                    4
+     $_DFF_PN0_                    143
+     $_DFF_PN1_                      4
+     $_MUX_                       1358
+     $_NAND_                       232
+     $_NOR_                        312
+     $_NOT_                        487
+     $_ORNOT_                      563
+     $_OR_                        9139
+     $_XNOR_                       664
+     $_XOR_                       2206
+

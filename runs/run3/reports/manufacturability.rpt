@@ -1,0 +1,19 @@
+Design Name: aes
+Run Directory: /openlane/designs/aes128/runs/run3
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openlane/designs/aes128/runs/run3/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openlane/designs/aes128/runs/run3/logs/signoff/37-aes.lef.lvs.log
+Number of nets: 22969                      |Number of nets: 22969                      
+Design is LVS clean.
+----------------------------------------
+
+Antenna Summary:
+Source: /openlane/designs/aes128/runs/run3/logs/signoff/39-arc.log
+Pin violations: 66
+Net violations: 46
