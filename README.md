@@ -32,7 +32,7 @@ The project evaluates five distinct physical implementation runs:
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | **Run 1** | Baseline | 10.0 ns | 112.11 | +1.08 ns | 40% | 165 | **Clean** |
 | **Run 2** | Area-Optimized | 10.0 ns | 114.55 | +1.27 ns | 48% | 168 | **Clean** |
-| **Run 3** | Timing Stress Case | 5.0 ns | -- | Negative | 40% | N/A | **Timing Violation** |
+| **Run 3** | Timing Stress Case | 5.0 ns | 118.62 | -3.43 ns| 40% | N/A | **Timing Violation** |
 | **Run 4** | Performance-Optimized | 8.5 ns | 120.63 | +0.21 ns | 40% | 198 | **Clean** |
 | **Run 5** | Global Optimization Case | 8.2 ns | 125.79 | +0.25 ns | 40% | 208 | **Clean** |
 
