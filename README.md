@@ -44,7 +44,11 @@ The project evaluates five distinct physical implementation runs:
 ![PPA Analysis Graph](images/ppa_graph.png)
 
 ### Final Physical Layout Comparison
-| Run 1 — Baseline Layout | Run 4 — Performance Layout |
+| Run 1 — Baseline Layout | Run 2 — Area Opt Layout |
+| :---: | :---: |
+| ![Run 1 Layout Size](images/layoutsize_run1.png) | ![Run 2 Layout Size](images/layoutsize_run2.png) |
+
+| Run 1 — Baseline Layout | Run 4 — Performance Opt Layout |
 | :---: | :---: |
 | ![Run 1 Layout](images/layout_run1.png) | ![Run 4 Layout](images/layout_run4.png) |
 
