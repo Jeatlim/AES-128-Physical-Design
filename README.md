@@ -54,6 +54,37 @@ The project evaluates five distinct physical implementation runs:
 
 ---
 
+## Project Directory Structure
+
+```text
+AES-128-Physical-Design/
+├── config.json          # Primary OpenLane flow configuration
+├── src/                 # AES-128 Verilog RTL source files
+│   ├── aes.v            # Top-level core wrapper
+│   ├── aes_core.v       # Main encryption logic
+│   └── ...
+├── images/              # Screenshots and PPA graphs for README
+└── runs/                # Physical design flow execution outputs
+    ├── run1/            # Baseline run (reports & signoff outputs)
+    ├── run2/            # Area-optimized run
+    ├── run3/            # Unclosable timing case study
+    ├── run4/            # Performance-optimized run
+    └── run5_op/         # Resolved timing case study
+```
+---
+
+## How to Reproduce the Run
+1. Clone this repository into your OpenLane environment:
+```bash
+cd ~/OpenLane/designs
+git clone https://github.com/Jeatlim/AES-128-Physical-Design.git aes128
+```
+2. Run the OpenLane flow:
+```bash
+cd ~/OpenLane
+./flow.tcl -design aes128 -tag run1
+```
+
 ## Toolchain & PDK Information
 
 * **EDA Toolchain:** OpenLane v1.x (Yosys, OpenROAD, OpenSTA, Magic, Netgen, KLayout)
